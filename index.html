@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Life March</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+	<header class="header">
+		<div class="container">
+			<p class="header__text">
+				Test project
+			</p>
+		</div>
+	</header>
+
+	<main>
+
+		<section class="products">
+			<div class="container">
+				<div class="products__inner">
+					<form class="form" action="">
+						<label class="form__label" for="mySelect">Выберите продукцию</label>
+						<select class="form__select item" id="mySelect">
+							<option value="">Test project</option>
+						</select>
+						<label class="form__label" for="quantity">Введите количество</label>
+						<input class="form__input item" type="number" id="quantity" name="quantity" min="1" step="1"
+							placeholder="0">
+						<button class="form__button" type="submit">Добавить</button>
+					</form>
+
+					<div class="products__wrapper">
+
+						<table class="products__table" id="myTable">
+							<thead>
+								<tr>
+									<th>Название товара</th>
+									<th>Количество</th>
+									<th>Стоимость</th>
+								</tr>
+							</thead>
+							<tbody class="products__tbody">
+
+							</tbody>
+						</table>
+
+						<div class="products__sum" id="totalSum">Итого: 0</div>
+						<button class="products__btn">Сохранить</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<p class="footer__text">Very intresting tail</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
