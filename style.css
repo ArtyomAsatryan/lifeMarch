@@ -140,7 +140,7 @@ th:nth-of-type(2) {
   }
 
   .products__table tbody tr {
-    display: block; /* Делаем строки блочными элементами */
+    display: block;
   }
 
   .products__table tbody tr td {
@@ -148,12 +148,12 @@ th:nth-of-type(2) {
   }
 
   .products__table tbody tr td:first-child {
-    display: block; /* Делаем ячейки блочными элементами */
-    width: 100%; /* Устанавливаем ширину ячейки равной 100% */
+    display: block;
+    width: 100%;
   }
 
   .products__table tbody tr td:first-child {
-    width: 100%; /* Первая ячейка занимает всю ширину на мобильных устройствах */
+    width: 100%;
   }
 
   .products__table tbody tr td:nth-child(2) {
